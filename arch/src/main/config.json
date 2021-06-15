@@ -1,0 +1,24 @@
+{
+  "app": {
+    "bundleName": "com.eholee.harmony_mvvm",
+    "vendor": "eholee",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.eholee.harmony_arch",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "arch",
+      "moduleType": "har"
+    }
+  }
+}

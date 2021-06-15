@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DirectionalLayout
     xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:root"
     ohos:height="match_parent"
     ohos:width="match_parent"
     ohos:alignment="center"
@@ -15,5 +16,11 @@
         ohos:text="$string:mainability_HelloWorld"
         ohos:text_size="40vp"
         />
+<!--
+    <binddata>
+        <variable
+            class="com.eholee.harmony_mvvm.viewmodel.UserViewModel"
+            name="vm" />
+    </binddata>-->
 
 </DirectionalLayout>
